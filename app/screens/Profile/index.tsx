@@ -54,16 +54,6 @@ const Profile = ({ navigation }: { navigation: any }) => {
         <Text>Tài khoản: {user?.userName}</Text>
         <Text>Mật khẩu: {user?.passWord ?? "Chưa cập nhật"}</Text>
       </View>
-      <TouchableOpacity
-        onPress={() => {
-          navigation.navigate("DashBoard");
-        }}
-        style={styles.btn}
-      >
-        <View>
-          <Text>DashBoard</Text>
-        </View>
-      </TouchableOpacity>
     </View>
   );
 };

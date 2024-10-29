@@ -17,9 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/google_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dinhtuan.app1"
     },
     "web": {
       "bundler": "metro",
@@ -29,6 +30,11 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ed91cef-99db-4268-bab5-b81312ed7b43"
+      }
     }
   }
 }

@@ -69,7 +69,7 @@ export const SignUp = ({
   const handleLogin = async () => {
     const user = await getData(STORAGE_KEY.USER);
     if (user.userName === userName && user.password === password) {
-      navigation.navigate("Profile");
+      navigation.navigate("TabNavigator");
     }
   };
 

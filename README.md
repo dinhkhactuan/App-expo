@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Getting Started
 
-## Get started
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-1. Install dependencies
+## Step 1: device setup
 
-   ```bash
-   npm install
-   ```
+- First you must have an Android or iOS phone device
+- Then connect your phone to your computer
 
-2. Start the app
+# if you don't have the device
 
-   ```bash
-    npx expo start
-   ```
+- You download Android Studio software: https://developer.android.com/studio?hl=en
+- Then go to the following link to create and open a virtual device: https://developer.android.com/studio/run/managing-avds?hl=vi
 
-In the output, you'll find options to open the app in a
+## Step 2: clone project
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Copy https link git
+- Open terminal and type git clone "https link just copied"
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Step 3: Start your Application
 
-## Get a fresh project
+-Cd into the project after cloning
+-Open terminal and type npm i or npm install
+-After downloading, type the command: npm i "@jest/globals": "^29.7.0",
+"@react-native-async-storage/async-storage": "^2.0.0",
+"@react-navigation/bottom-tabs": "^6.6.1",
+"@react-navigation/native": "^6.1.18",
+"@react-navigation/native-stack": "^6.11.0",
+"axios": "^1.7.7",  
+ "@types/react-native-vector-icons": "^6.4.18",
+"react-native-vector-icons": "^10.2.0"
 
-When you're ready, run:
+### For Android
 
-```bash
-npm run reset-project
-```
+# using npm
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npm run android or npm start
 
-## Learn more
+# OR using Yarn
 
-To learn more about developing your project with Expo, look at the following resources:
+yarn android
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# using npm
 
-## Join the community
+# using npm
 
-Join our community of developers creating universal apps.
+npm run ios
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# OR using Yarn
+
+yarn ios
